@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca Multiplayer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Forca</h1>
+        <label for="dificuldade">Escolha a dificuldade:</label>
+        <select id="dificuldade">
+            <option value="facil">Fácil</option>
+            <option value="medio">Médio</option>
+            <option value="dificil">Difícil</option>
+        </select>
+        <button onclick="iniciarJogo()">Iniciar Jogo</button>
+        <p id="turno"></p>
+        <canvas id="forca" width="200" height="250"></canvas>
+        <div id="palavra"></div>
+        <div class="tentativas">Tentativas restantes: <span id="tentativas">6</span></div>
+        <div class="letras"></div>
+        <p>Letras já usadas:</p>
+        <div id="letras-usadas"></div>
+        <p>Pontuações:</p>
+        <ul id="pontuacoes"></ul>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>

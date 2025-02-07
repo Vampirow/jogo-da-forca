@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #87CEEB;
+    color: #333;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #D32F2F;
+}
+
+#palavra {
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin: 20px 0;
+    color: #388E3C;
+}
+
+.tentativas {
+    font-weight: bold;
+    color: #FFA000;
+}
+
+.letras button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #0288D1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.letras button:hover {
+    background-color: #0277BD;
+}
+
+#letras-usadas {
+    font-size: 1.2em;
+    color: #D32F2F;
+    margin-top: 10px;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: white;
+}
