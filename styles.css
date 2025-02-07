@@ -55,3 +55,10 @@ canvas {
     border: 1px solid #000;
     background-color: white;
 }
+footer {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
