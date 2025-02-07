@@ -59,6 +59,11 @@ footer {
     margin-top: 20px;
     font-size: 1em;
     padding: 10px;
+    background: #e0dbdb;
+    color: rgb(0, 0, 0);
+}
+    font-size: 1em;
+    padding: 10px;
     background: #222;
     color: white;
 }
